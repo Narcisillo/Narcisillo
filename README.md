@@ -45,3 +45,52 @@
 
 </body>
 </html>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h1, h2 {
+    color: #333; /* Color del título */
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
