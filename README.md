@@ -1,4 +1,61 @@
 <!DOCTYPE html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Color del enlace en el encabezado */
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section {
+    background-color: #f0f0f0; /* Fondo gris claro para secciones */
+}
+
+h1, h2 {
+    color: #0052A5; /* Color azul de la bandera de El Salvador para títulos */
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
 <html lang="es">
 <head>
     <meta charset="UTF-8">
